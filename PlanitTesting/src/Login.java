@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Login {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Selenium\\Essential Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Selenium\\Essential Drivers\\Chrome\\chromedriver.exe");
 		   WebDriver driver = new ChromeDriver();
 		    driver.get("https://jupiter.cloud.planittesting.com/#/");
 		    driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
